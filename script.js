@@ -1,0 +1,1 @@
+// this dom project is a random rgb generator by clicking.
