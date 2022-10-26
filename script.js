@@ -12,7 +12,7 @@ function main(){
     const btn  = document.getElementById('change-btn');
     btn.addEventListener('click', function(){
         let changeBg = generateRGBColor();
-        root.style.backgroundColor =  changeBg; 
+        root.style.backgroundColor =  changeBg;
     });
 };
 
@@ -22,5 +22,5 @@ function generateRGBColor(){
     let red = Math.floor(Math.random()*255);
     let green = Math.floor(Math.random() * 255);
     let blue = Math.floor(Math.random() * 255);
-    return `${red}, ${green}, ${blue}`;
+    return `rgb(${red}, ${green}, ${blue})`;
 };
